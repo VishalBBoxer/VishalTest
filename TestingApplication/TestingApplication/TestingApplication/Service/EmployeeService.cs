@@ -25,7 +25,7 @@ namespace TestingApplication.Service
         {
             return await httpClient.GetFromJsonAsync<Employee>($"api/employee/{id}");
         }
-
+        //update employee through Json
         public async Task<Employee> UpdateEmployee(Employee updatedEmployee)
         {
             var result = await httpClient.PutAsJsonAsync<Employee>("api/employee", updatedEmployee);
