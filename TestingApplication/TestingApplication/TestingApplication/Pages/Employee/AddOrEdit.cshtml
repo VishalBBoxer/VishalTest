@@ -1,0 +1,55 @@
+﻿@page "/Employee/AddOrEdit/{id:int}"
+@model TestingApplication.Pages.Employee.AddOrEditModel
+@{
+    <br />
+    <h2 class="text-info">Edit Employee</h2>
+    <br />
+
+    <div class="border container" style="padding:30px;">
+        <form method="post">
+            <input type="hidden" asp-for="@Model.Employees.EmployeeId" />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.Employees.FirstName"></label>
+                </div>
+                <div class="col-6">
+                    <input asp-for="@Model.Employees.FirstName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.Employees.LastName"></label>
+                </div>
+                <div class="col-6">
+                    <input asp-for="@Model.Employees.LastName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.Employees.Email"></label>
+                </div>
+                <div class="col-6">
+                    <input asp-for="@Model.Employees.Email" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.Employees.DateOfBirth"></label>
+                </div>
+                <div class="col-6">
+                    <input type="date" asp-for="@Model.Employees.DateOfBirth" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3 offset-4">
+                    <input type="submit" value="Update" class="btn btn-primary form-control" />
+                </div>
+                <div class="col-3">
+                    <a asp-page="/Employee/EmployeeList" class="btn btn-success form-control">Back to List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+}

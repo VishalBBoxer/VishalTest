@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "job4hI51bErFos6/MtDkcE/KR7ta8TW7U0aw3QUbdvanQ4sAVPr8KkY+SB0UQ/bE3nUzfL4Us9RW8To4iO/GHQ==",
+  "success": true,
+  "projectFilePath": "D:\\TestingApplication\\TestingApplication\\TestingApplication\\TestingApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.net.http.json\\6.0.0\\system.net.http.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\VishalB\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

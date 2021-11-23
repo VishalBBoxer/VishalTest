@@ -1,0 +1,9 @@
+D:\TestingApplication\TestingApplication\TestingApplication.Models\bin\Debug\netcoreapp3.1\TestingApplication.Models.deps.json
+D:\TestingApplication\TestingApplication\TestingApplication.Models\bin\Debug\netcoreapp3.1\TestingApplication.Models.dll
+D:\TestingApplication\TestingApplication\TestingApplication.Models\bin\Debug\netcoreapp3.1\TestingApplication.Models.pdb
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.csproj.AssemblyReference.cache
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.AssemblyInfoInputs.cache
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.AssemblyInfo.cs
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.csproj.CoreCompileInputs.cache
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.dll
+D:\TestingApplication\TestingApplication\TestingApplication.Models\obj\Debug\netcoreapp3.1\TestingApplication.Models.pdb

@@ -1,0 +1,31 @@
+﻿@page "/Employee/EmployeeList"
+@model TestingApplication.Pages.Employee.EmployeeListModel
+@{
+}
+
+<div class="card-deck">
+    @foreach (var item in Model.Employees)
+    {
+
+        <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+            <div class="card-header">
+                <h1>@item.FirstName @item.LastName</h1>
+            </div>
+
+            <div class="card-body text-center">
+                @* <img class="card-img-top" src="Employee.PhotoPath" />*@
+
+                <h4>Employee ID : @item.EmployeeId</h4>
+                <h4>Email : @item.Email</h4>
+                <h4>Birth Date : @item.DateOfBirth.Date.ToString("d")</h4>
+                @*<h4>Department : Employees.DepartmentId</h4>*@
+            </div>
+            <div class="card-footer text-center">
+                <a asp-page="/Employee/EmployeeDetails" asp-route-Id="@item.EmployeeId" class="btn btn-primary">View</a>
+                <a asp-page="/Employee/AddOrEdit" asp-route-Id="@item.EmployeeId" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+
+        </div>
+    }
+    </div>

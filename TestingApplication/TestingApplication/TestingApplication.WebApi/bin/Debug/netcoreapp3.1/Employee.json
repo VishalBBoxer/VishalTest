@@ -1,0 +1,32 @@
+{
+  "Employees": [
+    {
+      "EmployeeId": 1,
+      "FirstName": "John",
+      "LastName": "Hastings",
+      "Email": "David@pragimtech.com",
+      "DateOfBirth": "1980-10-5"
+    },
+    {
+      "EmployeeId": 2,
+      "FirstName": "Sam",
+      "LastName": "Galloway",
+      "Email": "Sam@pragimtech.com",
+      "DateOfBirth": "1981-12-22"
+    },
+    {
+      "EmployeeId": 3,
+      "FirstName": "Mary",
+      "LastName": "Smith",
+      "Email": "mary@pragimtech.com",
+      "DateOfBirth": "1979-11-11"
+    },
+    {
+      "EmployeeId": 4,
+      "FirstName": "Sara",
+      "LastName": "Longway",
+      "Email": "sara@pragimtech.com",
+      "DateOfBirth": "1982-9-23"
+    }
+  ]
+}
